@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+
+#introSection::before{
+    content: "";
+    background : url('/static/college-hip-hop-black-and-white-covering-faces-1200x800.jpg') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.50;
+    top: 0px;
+    left: 0px;
+
+}
+#introSection{
+    position: relative;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    padding-bottom: 29px;
+}
+#introSection div.small{
+    font-size: 40px;
+    padding: 5px;
+}
+
+#Mission{
+    display: flex;
+    flex-direction: column;
+    padding: 37px 2px;
+    background-color: #ad9898;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cont{
+    border: 2px solid black;
+    margin: 10px 22px;
+    height: 185px;
+    width: 28%;
+    
+    padding-top: 2px;
+    border-radius: 12px;
+    background-color: #d18098;
+}
+.cont h4{
+    font-size: 25px;
+    padding: 4px;
+    text-align: center;
+    margin-top: 6px;
+}
+
+#Mission h2{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.section1 img{
+    height: 70px;
+    width: 80px;
+    padding: 3px 2px;
+    margin: 1px 5px;
+
+}
+.section1 p{
+    margin-top: 7px;
+    font-size: 23px;
+}
+
+#sponsorsSection{
+    height: 300px;
+    background-color: rgb(29, 135, 135);
+    
+}
+#sponsorsSection h2 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: cursive;
+}
+.sponserlogo{
+    display: flex;
+    justify-content: center;
+}
+.sponserlogo img{
+    margin: 13px;
+}
+

@@ -1,0 +1,21 @@
+html
+  head
+    title My Site 
+    block scripts
+    block basestyle
+        link(rel='stylesheet', href='../static/base.css')
+    block style 
+        
+  body
+    nav#navbar
+      div#logo 
+        img(src="/static/istockphoto-1151289057-612x612.jpg")
+      ul 
+          li #[a(href = "/") Home] 
+          li #[a(href = "/") About] 
+          li #[a(href = "/") Service]
+          li #[a(href = "/") Class Info]
+          li #[a(href = "/contact") Contact us]
+    block content
+    footer#footer
+        |  Copyright © 2019 HarryAcademy.com | All Rights Reserved

@@ -1,0 +1,39 @@
+extends base.pug
+
+block scripts
+    script(src='../static/index.js')
+block style 
+    style
+      include ../static/style.css
+block content
+    section#introSection
+        div Welcome to Nirav's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#Mission 
+        h2 Our Mission
+        div.container 
+           div.cont 
+              h4 Dance Perfection
+              div.section1
+                img(src="static/images (1).png")
+                p This is the best dance accademy 
+              
+           div.cont 
+              h4 Dance the way you like
+              div.section1
+                img(src="static/images (2).png")
+                p  This is the best dance accademy 
+           div.cont 
+              h4 Expert Teaching
+              div.section1
+                img(src="static/images.png")
+                p This is the best dance accademy 
+           
+    section#sponsorsSection
+        h2 Our Sponsors
+        div.sponserlogo
+          img(src="static/images (3).png") 
+          img(src="static/images (4).png") 
+          img(src="static/images (5).png") 
+
+    

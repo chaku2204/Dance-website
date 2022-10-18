@@ -1,0 +1,52 @@
+doctype html
+html
+  head
+    title Nirav's Dance Accademy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+      div#logo 
+        img(src="/static/istockphoto-1151289057-612x612.jpg")
+      ul 
+          li #[a(href = "/") Home] 
+          li #[a(href = "/") About] 
+          li #[a(href = "/") Service]
+          li #[a(href = "/") Class Info]
+          li #[a(href = "/") Contact us]
+           
+    section#introSection
+        div Welcome to Nirav's Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#Mission 
+        h2 Our Mission
+        div.container 
+           div.cont 
+              h4 Dance Perfection
+              div.section1
+                img(src="static/images (1).png")
+                p This is the best dance accademy 
+              
+           div.cont 
+              h4 Dance the way you like
+              div.section1
+                img(src="static/images (2).png")
+                p  This is the best dance accademy 
+           div.cont 
+              h4 Expert Teaching
+              div.section1
+                img(src="static/images.png")
+                p This is the best dance accademy 
+           
+    section#sponsorsSection
+        h2 Our Sponsors
+        div.sponserlogo
+          img(src="static/images (3).png") 
+          img(src="static/images (4).png") 
+          img(src="static/images (5).png") 
+          
+    footer#footer
+        | Copyright © 2019 HarryAcademy.com | All Rights Reserved
+    
+    script
+      include ../static/index.js
